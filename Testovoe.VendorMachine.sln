@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testovoe.VendorMachine.Server", "Testovoe.VendorMachine.Server\Testovoe.VendorMachine.Server.csproj", "{DBCEAE95-B208-4002-93F1-0859651A4C95}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "testovoe.vendormachine.client", "testovoe.vendormachine.client\testovoe.vendormachine.client.esproj", "{8B54AF4C-0A0D-472A-B0BB-0BB843AB15D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCEAE95-B208-4002-93F1-0859651A4C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCEAE95-B208-4002-93F1-0859651A4C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCEAE95-B208-4002-93F1-0859651A4C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCEAE95-B208-4002-93F1-0859651A4C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B54AF4C-0A0D-472A-B0BB-0BB843AB15D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B54AF4C-0A0D-472A-B0BB-0BB843AB15D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B54AF4C-0A0D-472A-B0BB-0BB843AB15D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8B54AF4C-0A0D-472A-B0BB-0BB843AB15D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B54AF4C-0A0D-472A-B0BB-0BB843AB15D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B54AF4C-0A0D-472A-B0BB-0BB843AB15D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F28FC1D-08BF-48A9-9721-0248E712309E}
+	EndGlobalSection
+EndGlobal
