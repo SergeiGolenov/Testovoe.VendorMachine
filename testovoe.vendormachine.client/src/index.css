@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .text-primary {
-    @apply text-base text-neutral-300;
-  }
+@font-face {
+  font-family: Lobster;
+  src: url(Lobster-Regular.ttf);
 }
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-neon {
+  font-family: Lobster;
+  color: #fff;
+  text-shadow:
+    0 0 8px #ffc0cb,
+    0 0 16px #ffc0cb;
+}
+
+.text-pixel {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
 }
