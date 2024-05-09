@@ -1,10 +1,11 @@
 import BillService from "../services/BillService";
-import SodaService, { soda } from "../services/SodaService";
+import SodaService, { Soda } from "../services/SodaService";
 
-export default function SodaComponent(props: soda) {
+export default function SodaComponent(props: Soda) {
   function onClick() {
     if (props.count > 0) {
       SodaService.draw(props.id);
+      SodaService.click(props.id);
       BillService.add(props.price);
     }
   }

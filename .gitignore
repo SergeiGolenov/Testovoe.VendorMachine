@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /Testovoe.VendorMachine.Server/wwwroot/index.html
 /Testovoe.VendorMachine.Server/wwwroot/assets*
+/Testovoe.VendorMachine.Server/wwwroot/Lobster-Regular.ttf

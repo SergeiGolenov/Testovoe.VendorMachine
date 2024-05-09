@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import AppContext from "./contexts/AppContext";
 
 export default function App() {
   return (
@@ -9,14 +8,6 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route
-              path="/admin/:token"
-              element={
-                <AppContext.Provider value={{ isAdmin: true }}>
-                  <HomePage />
-                </AppContext.Provider>
-              }
-            />
           </Routes>
         </main>
       </div>

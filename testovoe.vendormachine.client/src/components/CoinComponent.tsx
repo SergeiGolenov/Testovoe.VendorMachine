@@ -1,11 +1,12 @@
-import CoinService, { coin } from "../services/CoinService";
+import CoinService, { Coin } from "../services/CoinService";
 import DepositService from "../services/DepositService";
 
-export default function CoinComponent(props: coin) {
+export default function CoinComponent(props: Coin) {
   function onClick() {
     if (props.count > 0 && !props.isBlocked) {
       DepositService.add(props.value);
       CoinService.draw(props.id);
+      CoinService.click(props.id);
     }
   }
 
